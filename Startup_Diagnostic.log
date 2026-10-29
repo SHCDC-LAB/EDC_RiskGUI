@@ -1,0 +1,7 @@
+E:\EDC_AOPRisk_GUI\.venv\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+{
+  "status": "PASS",
+  "reference_predictions_checked": 12,
+  "maximum_probability_difference": 2.7755575615628914e-17
+}

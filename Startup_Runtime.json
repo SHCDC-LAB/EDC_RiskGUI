@@ -1,0 +1,116 @@
+{
+  "status": "PASS",
+  "gui_version": "1.0.2",
+  "python": "3.12.10",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "rdkit": "2025.09.4",
+  "rdkit_module": "E:\\EDC_AOPRisk_GUI\\.venv\\Lib\\site-packages\\rdkit\\__init__.py",
+  "inherited_RDBASE": "C:\\RDkit",
+  "resolved_RDDataDir": "E:\\EDC_AOPRisk_GUI\\.venv\\Lib\\site-packages\\rdkit\\Data",
+  "required_descriptor_count": 215,
+  "missing_before_repair": [],
+  "fragments_before_repair": 85,
+  "entropy_dtype_probe": {
+    "integer_dtype": "int64",
+    "integer_entropy": 0.0,
+    "float64_entropy": 1.086312840741288,
+    "python_reference_entropy": 1.0863128407412879
+  },
+  "bertz_entropy_input_dtype": "float64",
+  "bertz_fix_reference": "https://github.com/rdkit/rdkit/pull/9072",
+  "fragments_after_repair": 85,
+  "missing_after_repair": [],
+  "fragment_definition_sha256": "1c763fde167f5e27213bc2124856cc311112755c8dc83f3d9a10c76814cd2f44",
+  "reference_calculation_failures": [],
+  "descriptor_mismatches": [],
+  "reference_predictions": [
+    {
+      "chemical": "Bisphenol S",
+      "endpoint": "AR_AGONIST",
+      "actual": 0.802594317192826,
+      "expected": 0.802594317192826,
+      "absolute_difference": 0.0
+    },
+    {
+      "chemical": "Diethyl phthalate",
+      "endpoint": "AR_AGONIST",
+      "actual": 0.006653457342082242,
+      "expected": 0.006653457342082242,
+      "absolute_difference": 0.0
+    },
+    {
+      "chemical": "Benzophenone",
+      "endpoint": "AR_AGONIST",
+      "actual": 0.6972997809250049,
+      "expected": 0.6972997809250049,
+      "absolute_difference": 0.0
+    },
+    {
+      "chemical": "Anthracene",
+      "endpoint": "AR_AGONIST",
+      "actual": 0.05292016537181152,
+      "expected": 0.05292016537181152,
+      "absolute_difference": 0.0
+    },
+    {
+      "chemical": "Bisphenol S",
+      "endpoint": "AR_ANTAGONIST",
+      "actual": 0.5069994509308613,
+      "expected": 0.5069994509308613,
+      "absolute_difference": 0.0
+    },
+    {
+      "chemical": "Diethyl phthalate",
+      "endpoint": "AR_ANTAGONIST",
+      "actual": 0.1729785302378854,
+      "expected": 0.1729785302378854,
+      "absolute_difference": 0.0
+    },
+    {
+      "chemical": "Benzophenone",
+      "endpoint": "AR_ANTAGONIST",
+      "actual": 0.15184149453520682,
+      "expected": 0.15184149453520682,
+      "absolute_difference": 0.0
+    },
+    {
+      "chemical": "Anthracene",
+      "endpoint": "AR_ANTAGONIST",
+      "actual": 0.6601109792954443,
+      "expected": 0.6601109792954443,
+      "absolute_difference": 0.0
+    },
+    {
+      "chemical": "Bisphenol S",
+      "endpoint": "ESR1_AGONIST",
+      "actual": 0.899558778904212,
+      "expected": 0.899558778904212,
+      "absolute_difference": 0.0
+    },
+    {
+      "chemical": "Diethyl phthalate",
+      "endpoint": "ESR1_AGONIST",
+      "actual": 0.18329029677146716,
+      "expected": 0.18329029677146713,
+      "absolute_difference": 2.7755575615628914e-17
+    },
+    {
+      "chemical": "Benzophenone",
+      "endpoint": "ESR1_AGONIST",
+      "actual": 0.9124011870682416,
+      "expected": 0.9124011870682416,
+      "absolute_difference": 0.0
+    },
+    {
+      "chemical": "Anthracene",
+      "endpoint": "ESR1_AGONIST",
+      "actual": 0.8576597870685655,
+      "expected": 0.8576597870685655,
+      "absolute_difference": 0.0
+    }
+  ],
+  "maximum_probability_difference": 2.7755575615628914e-17,
+  "reference_structures_checked": 4,
+  "reference_descriptors_checked": 215,
+  "reference_predictions_checked": 12
+}
